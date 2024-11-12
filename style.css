@@ -1,0 +1,29 @@
+body{
+    background-color: #121212;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    display:none;
+}
+.grid-item{
+    border: orange 1px solid;
+    padding: 20px;
+}
+.modeBtn{
+    background-color: #121212;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.modeBtn:hover{
+    background-color: white;
+    color: black;
+}
+#result{
+    display: none;
+}
